@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { ReactNode } from "react";
 import { Metadata } from "next";
+import GlobalNebulaBackground from "../../components/GlobalNebulaBackground";
 
 // Static profile data for SEO (to avoid dynamic imports in layout)
 const profile = {
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
+        <GlobalNebulaBackground />
         {children}
       </body>
     </html>

@@ -1,15 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function Hero() {
-  const [mounted, setMounted] = useState(false);
-  
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
@@ -27,18 +20,6 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-overlay"></div>
-      {mounted && (
-        <div className="particles">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      )}
     </section>
   );
 }

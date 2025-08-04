@@ -23,7 +23,6 @@ export default function Header() {
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             fontWeight: 900,
-            fontSize: "2rem",
             letterSpacing: "2px"
           }}>
             UMC
