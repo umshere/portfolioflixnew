@@ -33,9 +33,9 @@ export default function ProjectCard({ project }: Props) {
 
   return (
     <div className="card">
-      {/* Thumbnail placeholder */}
-      <div className="card-image" aria-label="Project thumbnail">
-        {image ? (
+      {/* Only show image if it exists */}
+      {image && (
+        <div className="card-image" aria-label="Project thumbnail">
           <Image
             src={image}
             alt={`${title} project thumbnail`}
@@ -43,12 +43,8 @@ export default function ProjectCard({ project }: Props) {
             height={200}
             className="w-full h-48 object-cover rounded-lg"
           />
-        ) : (
-          <div className="bg-gray-700 border border-gray-600 rounded-lg w-full h-48 flex items-center justify-center">
-            <span className="text-gray-400">Project Image</span>
-          </div>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Header */}
       <div className="flex justify-between items-start mb-2">

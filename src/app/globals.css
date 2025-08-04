@@ -1717,7 +1717,7 @@ body {
   }
 }
 
-/* Particles */
+/* Particles - Enhanced Nebula Effect */
 .particles {
   position: absolute;
   top: 0;
@@ -1725,219 +1725,184 @@ body {
   right: 0;
   bottom: 0;
   pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
 }
 
-.particles::before,
+/* Nebula Background Layers */
+.particles::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    ellipse at 30% 20%, 
+    rgba(229, 9, 20, 0.15) 0%, 
+    rgba(139, 69, 19, 0.08) 20%, 
+    rgba(75, 0, 130, 0.12) 40%, 
+    rgba(25, 25, 112, 0.06) 60%,
+    transparent 80%
+  );
+  animation: nebulaRotation 120s linear infinite;
+  opacity: 0.7;
+}
+
 .particles::after {
   content: "";
   position: absolute;
+  top: -30%;
+  left: -30%;
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(
+    ellipse at 70% 80%, 
+    rgba(65, 105, 225, 0.1) 0%, 
+    rgba(229, 9, 20, 0.08) 25%, 
+    rgba(138, 43, 226, 0.06) 50%,
+    transparent 70%
+  );
+  animation: nebulaRotation 180s linear infinite reverse;
+  opacity: 0.5;
+}
+
+/* Distant Stars using existing div elements */
+.particles div {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  animation: starTwinkle 4s ease-in-out infinite;
+}
+
+.particles div:nth-child(1) {
+  top: 15%;
+  left: 8%;
   width: 2px;
   height: 2px;
-  background: var(--netflix-red);
-  border-radius: 50%;
-  animation: float 6s ease-in-out infinite;
-}
-
-.particles::before {
-  top: 20%;
-  left: 10%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(229, 9, 20, 0.3);
   animation-delay: 0s;
-  box-shadow: 0 0 10px var(--netflix-red);
 }
 
-.particles::after {
-  top: 60%;
-  right: 15%;
-  animation-delay: 2s;
-  background: var(--text-secondary);
-  box-shadow: 0 0 10px var(--text-secondary);
+.particles div:nth-child(2) {
+  top: 25%;
+  right: 12%;
+  width: 1.5px;
+  height: 1.5px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 15px rgba(65, 105, 225, 0.4);
+  animation-delay: 1.5s;
 }
 
 .particles div:nth-child(3) {
-  position: absolute;
-  top: 40%;
-  left: 80%;
+  top: 45%;
+  left: 85%;
   width: 3px;
   height: 3px;
-  background: var(--text-primary);
-  border-radius: 50%;
-  animation: float 8s ease-in-out infinite;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 30px rgba(229, 9, 20, 0.2);
+  animation-delay: 3s;
+}
+
+.particles div:nth-child(4) {
+  top: 65%;
+  left: 25%;
+  width: 2.5px;
+  height: 2.5px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7), 0 0 25px rgba(138, 43, 226, 0.3);
+  animation-delay: 2s;
+}
+
+.particles div:nth-child(5) {
+  top: 80%;
+  right: 20%;
+  width: 1px;
+  height: 1px;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5), 0 0 12px rgba(229, 9, 20, 0.4);
   animation-delay: 4s;
-  box-shadow: 0 0 15px var(--text-primary);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  :root {
-    --spacing-lg: 1.5rem;
-    --spacing-xl: 2rem;
-    --spacing-xxl: 3rem;
-    --font-display: 800 2.5rem/1.1 var(--font-primary);
-    --font-title: 700 2rem/1.2 var(--font-primary);
-  }
+.particles div:nth-child(6) {
+  top: 35%;
+  left: 45%;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(65, 105, 225, 0.3);
+  animation-delay: 0.5s;
+}
 
-  .header-container {
-    padding: 0 var(--spacing-md);
-  }
+.particles div:nth-child(7) {
+  top: 55%;
+  right: 35%;
+  width: 1.5px;
+  height: 1.5px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 16px rgba(229, 9, 20, 0.3);
+  animation-delay: 3.5s;
+}
 
-  .nav {
-    gap: var(--spacing-sm);
-  }
+.particles div:nth-child(8) {
+  top: 75%;
+  left: 55%;
+  width: 2.5px;
+  height: 2.5px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7), 0 0 24px rgba(138, 43, 226, 0.2);
+  animation-delay: 1s;
+}
 
-  .hero {
-    min-height: 700px;
+/* Nebula Rotation Animation */
+@keyframes nebulaRotation {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.5;
   }
-
-  .hero-content {
-    padding: 0 var(--spacing-md);
+  25% {
+    opacity: 0.7;
   }
-
-  .hero-buttons {
-    flex-direction: column;
-    align-items: center;
+  50% {
+    transform: rotate(180deg) scale(1.1);
+    opacity: 0.6;
   }
-
-  .section {
-    padding: var(--spacing-xl) var(--spacing-md);
+  75% {
+    opacity: 0.8;
   }
-
-  .section-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--spacing-sm);
-  }
-
-  .ai-toolkit-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: var(--spacing-sm);
-  }
-
-  .ai-tool-card {
-    padding: var(--spacing-md);
-  }
-
-  .carousel-controls {
-    margin-top: var(--spacing-sm);
-  }
-
-  .card {
-    min-width: 280px;
-  }
-
-  .contact-section {
-    margin: var(--spacing-lg) var(--spacing-md);
-    padding: var(--spacing-lg);
-  }
-
-  .contact-links {
-    flex-direction: column;
-    align-items: center;
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.5;
   }
 }
 
-@media (max-width: 480px) {
-  :root {
-    --font-display: 800 2rem/1.1 var(--font-primary);
-    --font-title: 700 1.75rem/1.2 var(--font-primary);
+/* Star Twinkling Animation */
+@keyframes starTwinkle {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
   }
-
-  .logo {
-    font-size: 1.5rem;
+  25% {
+    opacity: 0.8;
+    transform: scale(1.2);
   }
-
-  .nav-link {
-    font-size: 0.9rem;
-  }
-
-  .card {
-    min-width: 250px;
-    padding: var(--spacing-sm);
-  }
-
-  .modal-content {
-    padding: var(--spacing-md);
-    margin: var(--spacing-sm);
-  }
-
-  .ai-toolkit-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  }
-
-  .ai-tool-card {
-    padding: var(--spacing-sm);
-  }
-
-  .ai-tool-name {
-    font-size: 0.8rem;
-  }
-}
-
-/* Reduced Motion */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .particles::before,
-  .particles::after,
-  .particles div:nth-child(3) {
-    animation: none;
-  }
-
-  .marquee-content {
-    animation: none;
-  }
-
-  .hero-content,
-  .hero-title,
-  .hero-subtitle,
-  .hero-description,
-  .hero-buttons,
-  .section-header,
-  .card {
-    animation: none;
+  50% {
     opacity: 1;
-    transform: none;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 0.6;
+    transform: scale(0.9);
   }
 }
 
-/* Modern AI Toolkit Card Styles */
-.ai-tool-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--spacing-md);
-  gap: var(--spacing-sm);
+/* Hero Section Height Adjustments */
+.hero {
+  height: 75vh;
+  min-height: 500px;
 }
-
-.ai-tool-info {
-  flex: 1;
-  text-align: left;
+@media (max-width: 768px) {
+  .hero {
+    min-height: 400px;
+    height: 60vh;
+  }
 }
-
-.ai-tool-category {
-  display: inline-block;
-  color: var(--netflix-red);
-  font: var(--font-small);
-  font-weight: 600;
-  background: rgba(229, 9, 20, 0.1);
-  padding: 2px 8px;
-  border-radius: 12px;
-  margin-top: 4px;
-}
-
-.ai-tool-card .highlight-icon {
-  margin-bottom: 0;
-  font-size: 1.5rem;
-  flex-shrink: 0;
-}
-
-.ai-tool-card .highlight-title {
-  margin-bottom: 4px;
-  font-size: 1.1rem;
-}
-
-.ai-tool-card .highlight-description {
-  margin-top: var(--spacing-sm);
+@media (orientation: portrait) {
+  .hero {
+    min-height: 300px;
+    height: 45vh;
+  }
 }

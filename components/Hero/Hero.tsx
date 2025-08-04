@@ -27,7 +27,18 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-overlay"></div>
-      {mounted && <div className="particles"></div>}
+      {mounted && (
+        <div className="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      )}
     </section>
   );
 }

@@ -17,7 +17,18 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
-        <div className="logo">UMESH</div>
+        <div className="logo">
+          <span style={{
+            background: "linear-gradient(90deg, #e50914 0%, #ff6b6b 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontWeight: 900,
+            fontSize: "2rem",
+            letterSpacing: "2px"
+          }}>
+            UMC
+          </span>
+        </div>
         <nav className="nav">
           <Link href="#hero" className="nav-link active">Home</Link>
           <Link href="#projects" className="nav-link">Projects</Link>
