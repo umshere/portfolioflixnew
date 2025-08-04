@@ -1,7 +1,7 @@
 # Netflix-Style Portfolio - Next.js 14 Modern Portfolio
 
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-next-ic66p8mxy-umsheres-projects)](https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app)
-[![Deployment Status](https://img.shields.io/badge/deployment-ready-brightgreen)](https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-next-umsheres-projects)](https://portfolio-next-umsheres-projects.vercel.app)
+[![Deployment Status](https://img.shields.io/badge/deployment-ready-brightgreen)](https://portfolio-next-umsheres-projects.vercel.app)
 
 A cutting-edge, responsive portfolio website built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and shadcn/ui. This project features a Netflix-inspired design with modern interactive elements, smooth animations, and comprehensive professional showcase sections.
 
