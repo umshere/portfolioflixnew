@@ -1,18 +1,22 @@
 # Netflix-Style Portfolio - Next.js 14 Modern Portfolio
 
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-next-ahnbr07ix-umsheres-projects)](https://portfolio-next-ahnbr07ix-umsheres-projects.vercel.app)
-[![Deployment Status](https://img.shields.io/badge/deployment-ready-brightgreen)](https://portfolio-next-ahnbr07ix-umsheres-projects.vercel.app)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-next-ic66p8mxy-umsheres-projects)](https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app)
+[![Deployment Status](https://img.shields.io/badge/deployment-ready-brightgreen)](https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app)
 
 A cutting-edge, responsive portfolio website built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and shadcn/ui. This project features a Netflix-inspired design with modern interactive elements, smooth animations, and comprehensive professional showcase sections.
 
 ## 🚀 Live Demo
 
-**Production URL**: https://portfolio-next-ahnbr07ix-umsheres-projects.vercel.app
+**Production URL**: https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app
 
 **Alternative URLs**:
 
 - https://portfolio-next-umsheres-projects.vercel.app
 - https://portfolio-next-black-mu.vercel.app
+
+## 🔄 Continuous Deployment
+
+This portfolio is automatically deployed to Vercel on every push to the `main` branch. The integration is seamless and requires no manual GitHub Actions workflows.
 
 ## 🚀 Recent Enhancements (2025)
 
