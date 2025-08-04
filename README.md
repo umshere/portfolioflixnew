@@ -7,16 +7,24 @@ A cutting-edge, responsive portfolio website built with Next.js 14 (App Router),
 
 ## 🚀 Live Demo
 
-**Production URL**: https://portfolio-next-ic66p8mxy-umsheres-projects.vercel.app
+**Recommended URL**: https://portfolio-next-umsheres-projects.vercel.app
 
 **Alternative URLs**:
 
-- https://portfolio-next-umsheres-projects.vercel.app
 - https://portfolio-next-black-mu.vercel.app
+
+**Note**: Vercel generates multiple deployment URLs. Always use the aliased URLs above for the most stable and reliable access to your portfolio.
 
 ## 🔄 Continuous Deployment
 
 This portfolio is automatically deployed to Vercel on every push to the `main` branch. The integration is seamless and requires no manual GitHub Actions workflows.
+
+### Best Practices
+
+- ✅ **Use aliased URLs** for reliable access
+- ✅ **Push to `main` branch** for automatic production deployment
+- ✅ **Create Pull Requests** for preview deployments
+- ✅ **No manual configuration** required
 
 ## 🚀 Recent Enhancements (2025)
 
