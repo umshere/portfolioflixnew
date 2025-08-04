@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/*
+
+# Host
+Host: https://umeshmc.com
+
+# Sitemaps
+Sitemap: https://umeshmc.com/sitemap.xml
