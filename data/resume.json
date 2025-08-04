@@ -1,0 +1,313 @@
+{
+  "profile": {
+    "name": "Umesh Muzhayil Chathoth",
+    "title": "Full Stack Engineer",
+    "location": "Chicago, Illinois",
+    "introduction": "With 14+ years of experience in full-stack development, specializing in Angular, React, and Vue.js frontend technologies. Adept in cloud solutions (AWS, Azure) and backend services with Node.js and Java microservices. Passionate about AI-driven development and agentic coding practices.",
+    "keyStrengths": [
+      "AI-Driven Development with GitHub Copilot, Cline, and MCP servers",
+      "End-to-end software development lifecycle expertise",
+      "Multi-regional team leadership using Agile/Scrum methodologies",
+      "Cross-functional collaboration between IT teams and business stakeholders",
+      "Complex problem-solving and performance optimization",
+      "High-quality standards enforcement via code reviews and CI/CD"
+    ],
+    "links": {
+      "github": "https://github.com/umshere",
+      "linkedin": "https://linkedin.com/in/umesh-muzhayil-chathoth",
+      "email": "umshere@gmail.com"
+    }
+  },
+  "projects": [
+    {
+      "title": "Mileage Redemption Project",
+      "company": "Allianz Insurance & Delta Airlines",
+      "period": "January 2025 - Present",
+      "description": "Comprehensive travel insurance platform enabling customers to purchase insurance using accumulated mileage points with secure payment solutions and distributed team coordination.",
+      "tech": [
+        "Java Servlet",
+        "Node.js",
+        "PeopleSoft CRM",
+        "Apple Pay",
+        "Google Pay",
+        "Cryptogram APIs",
+        "Azure"
+      ],
+      "highlights": [
+        "Drive end-to-end Mileage Redemption Project for Delta Airlines and Allianz Insurance",
+        "Leverage Java Servlet technologies and serverless Node.js frameworks for scalable services",
+        "Integrate PeopleSoft CRM for seamless customer relationship management and data synchronization",
+        "Implement secure payment solutions with Apple Pay & Google Pay via cryptogram-based architectures",
+        "Lead and mentor distributed teams across US and Brazil ensuring cohesive collaboration",
+        "Design comprehensive solution architectures with sequential diagrams and present to clients",
+        "Coordinate SIT/UAT cycles and facilitate smooth production deployments"
+      ],
+      "subProjects": [
+        {
+          "name": "PeopleSoft CRM Integration",
+          "description": "Seamless integration with PeopleSoft for customer relationship management and data synchronization"
+        },
+        {
+          "name": "Digital Payment Solutions",
+          "description": "Secure payment processing implementation via Apple Pay and Google Pay with cryptogram validation"
+        },
+        {
+          "name": "Distributed Team Leadership",
+          "description": "Cross-functional coordination and mentorship of onsite and Brazil-based offshore teams"
+        }
+      ]
+    },
+    {
+      "title": "DB Violation Dashboard",
+      "company": "Accenture - ULINE Client",
+      "period": "December 2022 - October 2023",
+      "description": "Enterprise-grade analytics dashboard for database compliance monitoring with scalable Azure data processing pipelines.",
+      "tech": [
+        "Azure Data Factory",
+        "Azure Data Studio",
+        "Node.js",
+        "Java Microservices",
+        "ETL Pipelines",
+        "NPM Package Development"
+      ],
+      "highlights": [
+        "Built scalable Azure Data Flow pipelines for large-scale data ingestion and transformation",
+        "Developed Java microservices and Node.js modules for data integration and service orchestration",
+        "Created reusable NPM package for business analytics with CI/CD patterns",
+        "Established automated deployment workflows and unit testing frameworks",
+        "Delivered comprehensive architecture documentation and conducted code reviews",
+        "Partnered with stakeholders for solution prototyping, testing, and debugging"
+      ]
+    },
+    {
+      "title": "T-Mobile Support Portfolio",
+      "company": "Accenture - T-Mobile Client",
+      "period": "June 2017 - November 2022",
+      "description": "Comprehensive web support system for telecommunications operations with full-stack microservices architecture.",
+      "tech": [
+        "Java Microservices",
+        "Node.js",
+        "Angular",
+        "React",
+        "AWS",
+        "Business Analytics"
+      ],
+      "highlights": [
+        "Built robust full-stack solutions with Java microservices and Node.js modules",
+        "Developed comprehensive business analytics NPM package with automated testing",
+        "Implemented service orchestration and data integration patterns",
+        "Established CI/CD pipelines and deployment automation",
+        "Delivered scalable solutions for telecommunications support operations"
+      ]
+    },
+    {
+      "title": "CHUBB Insurance Support Web Portfolio",
+      "company": "Accenture - CHUBB Client",
+      "period": "October 2023 - December 2025",
+      "description": "Sophisticated UI components and support management system for major insurance client operations.",
+      "tech": [
+        "Angular",
+        "React",
+        "UI Development",
+        "Jira",
+        "Project Management",
+        "Performance Optimization"
+      ],
+      "highlights": [
+        "Spearheaded requirement gathering with Business Analysts for sophisticated UI component design",
+        "Served as escalation point for complex technical issues and performance optimization",
+        "Managed complete support web portfolio including daily operations and release management",
+        "Coordinated UAT deployments and stakeholder communications",
+        "Conducted technical discussions with SMEs and provided hands-on development support"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "App Development Associate Manager",
+      "company": "Allianz Insurance",
+      "location": "Chicago, IL",
+      "period": "January 2025 – Present",
+      "highlights": [
+        "Drive the Mileage Redemption Project for Delta Airlines and Allianz Insurance",
+        "Leverage Java Servlet technologies and serverless Node.js frameworks",
+        "Integrate solutions with PeopleSoft CRM",
+        "Implement Apple Pay and Google Pay via secure payment architectures"
+      ]
+    },
+    {
+      "role": "Team Lead",
+      "company": "Accenture - CHUBB Client",
+      "location": "Chicago, IL",
+      "period": "October 2023 – December 2025",
+      "highlights": [
+        "Spearhead requirement gathering to design sophisticated UI components",
+        "Serve as escalation point for technical issues",
+        "Manage support web portfolio and release management"
+      ]
+    },
+    {
+      "role": "Team Lead",
+      "company": "Accenture - ULINE Client",
+      "location": "Chicago, IL",
+      "period": "December 2022 – October 2023",
+      "highlights": [
+        "Built Java microservices and Node.js modules",
+        "Created NPM package for business analytics",
+        "Constructed Azure Data Flow pipelines"
+      ]
+    },
+    {
+      "role": "Application Development Specialist",
+      "company": "Accenture - T-Mobile Client",
+      "location": "Chicago, IL",
+      "period": "June 2017 – November 2022",
+      "highlights": [
+        "Built Java microservices and Node.js modules",
+        "Created NPM package for business analytics",
+        "Constructed Azure Data Flow pipelines"
+      ]
+    }
+  ],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Shell",
+    "Angular",
+    "React",
+    "Next.js",
+    "Vue",
+    "Java Swing",
+    "Node.js",
+    "Java (Microservices)",
+    "AWS Lambda",
+    "Tosca",
+    "SonarQube",
+    "Jasmine",
+    "JUnit",
+    "Karma",
+    "HTML5",
+    "CSS3",
+    "AJAX",
+    "XML",
+    "DynamoDB",
+    "Elasticsearch",
+    "MySQL",
+    "Postman",
+    "SOAP UI",
+    "Git (GitHub, GitLab, Bitbucket)",
+    "SVN",
+    "CVS",
+    "Jenkins",
+    "GitLab",
+    "Webpack",
+    "Gradle",
+    "Maven",
+    "AWS (EC2, S3, Lambda)",
+    "Azure (App Services, Data Factory, Data Studio)",
+    "Docker",
+    "Kubernetes",
+    "Mesos",
+    "Agile",
+    "Scrum",
+    "Test-Driven Development (TDD)",
+    "Waterfall",
+    "Visual Studio Code",
+    "IntelliJ",
+    "Eclipse",
+    "macOS",
+    "Windows",
+    "Unix",
+    "Linux",
+    "GitHub Copilot",
+    "Cline",
+    "Playwright MCP"
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Kannur University, India",
+      "period": "2003 – 2006"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Azure Agentic AI Hackathon",
+      "issuer": "Microsoft Azure",
+      "year": "2024",
+      "description": "Digital badge for innovative AI applications and agentic development practices"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AI-Driven Development Pioneer",
+      "description": "Early adopter of agentic coding practices with GitHub Copilot, Cline, and various Model Context Protocol (MCP) servers for automated documentation and accelerated development"
+    },
+    {
+      "title": "Cross-Functional Leadership Excellence",
+      "description": "Successfully led multi-regional teams using Agile and Scrum methodologies, coordinating daily operations across US and Brazil-based teams"
+    },
+    {
+      "title": "Enterprise Architecture Expertise",
+      "description": "Designed and implemented scalable solutions for Fortune 500 companies including Delta Airlines, Allianz Insurance, T-Mobile, and CHUBB"
+    },
+    {
+      "title": "Performance Optimization Specialist",
+      "description": "Served as escalation point for critical issues, performing root-cause analysis and delivering sustainable solutions for complex enterprise applications"
+    }
+  ],
+  "extras": {
+    "professionalHighlights": [
+      {
+        "title": "AI-Driven Development",
+        "description": "Passionate about agentic coding with GitHub Copilot, Cline, and various MCP servers. Participated in Microsoft Azure's Agentic AI Hackathon and earned a digital badge for innovative AI applications."
+      },
+      {
+        "title": "Project Leadership",
+        "description": "Led multi-regional teams using Agile and Scrum methodologies, coordinating daily support operations, release management, and project timelines to ensure on-time deliverables."
+      },
+      {
+        "title": "High-Quality Standards",
+        "description": "Enforced coding and security guidelines via code reviews, testing frameworks, and CI/CD pipelines; documented architecture, processes, and designs to maintain clarity and best practices."
+      }
+    ],
+    "aiToolkit": [
+      {
+        "name": "GitHub Copilot",
+        "category": "AI Code Assistant",
+        "description": "Advanced AI pair programming for accelerated development and intelligent code suggestions"
+      },
+      {
+        "name": "Cline",
+        "category": "Agentic Coding",
+        "description": "Autonomous coding agent for complex development tasks and automated problem-solving"
+      },
+      {
+        "name": "Confluence MCP",
+        "category": "Documentation",
+        "description": "Model Context Protocol server for automated documentation creation and knowledge management"
+      },
+      {
+        "name": "Azure MCP Server",
+        "category": "Cloud Integration",
+        "description": "Azure services integration via Model Context Protocol for seamless cloud operations"
+      },
+      {
+        "name": "Perplexity MCP",
+        "category": "Research Assistant",
+        "description": "Advanced research and information gathering capabilities for technical problem-solving"
+      },
+      {
+        "name": "BrowserTools MCP",
+        "category": "Web Automation",
+        "description": "Browser automation and web scraping capabilities for data extraction and testing"
+      },
+      {
+        "name": "Playwright MCP",
+        "category": "Testing Automation",
+        "description": "End-to-end testing automation framework with cross-browser compatibility"
+      }
+    ]
+  }
+}
